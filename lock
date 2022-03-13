@@ -1,0 +1,13 @@
+#Prevent changing the Dock's position
+defaults write com.apple.Dock position-immutable -bool yes
+
+#Make it so that the Dock's size cannot be changed
+defaults write com.apple.Dock size-immutable -bool yes
+
+#Make the Dock's contents unchangeable
+defaults write com.apple.Dock contents-immutable -bool yes
+
+#After setting these options, we must kill and restart the "Dock" process/application
+killall Dock
+
+#The Dock process will restart automatically
