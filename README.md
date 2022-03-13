@@ -10,3 +10,5 @@ Simple set of scripts to lock/unlock the Dock in macOS
 
 You can use these scripts to (for example) prevent accidental changes.
 You can also comment out one or more commands, if you don't want to (un)lock some settings of the Dock.
+
+After downloading the scripts, make sure to make them executable using `chmod`; `chmod +x lock.sh`, `chmod +x unlock.sh`
